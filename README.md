@@ -81,8 +81,7 @@
   - queue에 삽입 되어 있는 원소를 dequeue하여 한 원소의 값이 0보다 작아질 때 까지 반복
 
 [4.ProgramVertification](https://github.com/KimUJin3359/Queue/tree/master/ProgramVertification)
-- 규칙에 따라 동작하는 프로그램이 종료될 수 있는지 확인하는 문제
-- [규칙](https://github.com/KimUJin3359/Queue/blob/master/ProgramVertification/%EB%AC%B8%EC%A0%9C(2).JPG)
+- [규칙](https://github.com/KimUJin3359/Queue/blob/master/ProgramVertification/%EB%AC%B8%EC%A0%9C(2).JPG)에 따라 동작하는 프로그램이 종료될 수 있는지 확인하는 문제
 - **해당 문제 풀이 중으로 완료 후 업데이트 예정**
 
 [5.ex03](https://github.com/KimUJin3359/Queue/tree/master/ex03)
