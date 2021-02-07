@@ -62,3 +62,28 @@
 - 탐색 시작점의 **인접한 정점들을 먼저** 모두 차례로 방문한 후에, 방문했던 정점을 시작점으로 하여 다시 인접한 정점들을 차례로 방문하는 방식
 
 #### 관련 문제
+[1.Contact](https://github.com/KimUJin3359/Queue/tree/master/Contact)
+- 비상연락망과 연락을 시작하는 당번에 대한 정보가 주어질 때, 가장 나중에 연락을 받게 되는 사람 중 번호가 가장 큰 사람을 구하는 문제
+- 접근 방법
+  - 각 node에 distance 속성을 주어 당번으로 부터의 거리를 data에 같이 저장 
+  - BFS 활용
+
+[2.Maze](https://github.com/KimUJin3359/Queue/tree/master/Maze)
+- 이전에 나왔던 미로 찾기 문제와 동일
+- 접근 방법
+  - 이전에 풀이법이 DFS였다면 이번 풀이법은 BFS
+  
+[3.PasswordMaker](https://github.com/KimUJin3359/Queue/tree/master/PasswordMaker)
+- 8개의 숫자를 입력받은 후, 첫 번째 숫자를 1 감소시킨 뒤 맨 뒤로 보냄
+- 다음 첫번째 수는 2 감소 후 맨 뒤로, ..., 5 감소 후 맨 뒤로
+- 숫자가 감소할 때 0보다 작아지는 경우 0으로 유지되며, 프로그램이 종료될 때 결과 값을 구하는 문제
+- 접근 방법
+  - queue에 삽입 되어 있는 원소를 dequeue하여 한 원소의 값이 0보다 작아질 때 까지 반복
+
+[4.ProgramVertification](https://github.com/KimUJin3359/Queue/tree/master/ProgramVertification)
+- 규칙에 따라 동작하는 프로그램이 종료될 수 있는지 확인하는 문제
+- [규칙](https://github.com/KimUJin3359/Queue/blob/master/ProgramVertification/%EB%AC%B8%EC%A0%9C(2).JPG)
+- **해당 문제 풀이 중으로 완료 후 업데이트 예정**
+
+[5.ex03](https://github.com/KimUJin3359/Queue/tree/master/ex03)
+- 정점과 간선이 주어질 때, 너비우선탐색을 할 경우 경로를 출력하는 문제
